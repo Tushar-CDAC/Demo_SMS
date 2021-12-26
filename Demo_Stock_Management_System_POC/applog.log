@@ -1,0 +1,28 @@
+2021-12-26 11:47:41.129  INFO 24016 --- [restartedMain] .DemoStockManagementSystemPocApplication : Starting DemoStockManagementSystemPocApplication using Java 17 on DESKTOP-V0UN3G5 with PID 24016 (C:\Una_Training\Workspace_JWT\Demo_Stock_Management_System_POC\target\classes started by una-brands in C:\Una_Training\Workspace_JWT\Demo_Stock_Management_System_POC)
+2021-12-26 11:47:41.133  INFO 24016 --- [restartedMain] .DemoStockManagementSystemPocApplication : No active profile set, falling back to default profiles: default
+2021-12-26 11:47:41.181  INFO 24016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-26 11:47:41.181  INFO 24016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-26 11:47:41.889  INFO 24016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-26 11:47:41.927  INFO 24016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2021-12-26 11:47:42.396  INFO 24016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-26 11:47:42.403  INFO 24016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-26 11:47:42.403  INFO 24016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-26 11:47:42.478  INFO 24016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-26 11:47:42.478  INFO 24016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1296 ms
+2021-12-26 11:47:42.622  INFO 24016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-26 11:47:42.651  INFO 24016 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-26 11:47:42.738  INFO 24016 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-26 11:47:42.819  INFO 24016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : test - Starting...
+2021-12-26 11:47:42.957  INFO 24016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : test - Start completed.
+2021-12-26 11:47:42.967  INFO 24016 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-26 11:47:43.683  INFO 24016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-26 11:47:43.692  INFO 24016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 11:47:44.257  WARN 24016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-26 11:47:44.479  INFO 24016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-26 11:47:44.954  INFO 24016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-26 11:47:45.118  INFO 24016 --- [restartedMain] .DemoStockManagementSystemPocApplication : Started DemoStockManagementSystemPocApplication in 4.299 seconds (JVM running for 4.986)
+2021-12-26 11:47:45.121  INFO 24016 --- [restartedMain] .DemoStockManagementSystemPocApplication : Testing
+2021-12-26 11:48:37.174  INFO 24016 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-26 11:48:37.212  INFO 24016 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-26 11:48:37.217  INFO 24016 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown initiated...
+2021-12-26 11:48:37.231  INFO 24016 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : test - Shutdown completed.
